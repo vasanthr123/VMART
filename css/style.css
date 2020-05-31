@@ -1,0 +1,200 @@
+.header {
+  height: 90vh;
+  background-image: url(/img/h1.jpg);
+  background-position: bottom;
+  background-size: cover; }
+  .header__text-box {
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    padding: 120px;
+    color: crimson; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit; }
+
+body {
+  padding: 3.5rem;
+  line-height: 1.6;
+  font-size: 20px; }
+
+.menu {
+  text-align: center;
+  padding: 1rem;
+  background-color: #bbd4e4;
+  margin-bottom: .5rem; }
+
+.menu-title {
+  display: flex;
+  margin-bottom: -2.5rem;
+  text-align: left; }
+  .menu-title__main {
+    font-family: 'Baloo Bhai', cursive;
+    color: #fff;
+    font-size: 30px;
+    border: 5px solid;
+    background-color: orange;
+    color: black;
+    padding: 3px;
+    border-radius: 0 1.5rem; }
+
+.menu-bar li {
+  padding: 0 1.5rem;
+  text-transform: uppercase;
+  list-style: none;
+  display: inline-block; }
+
+.menu-bar li a {
+  text-decoration: none; }
+
+li a:hover {
+  text-decoration: none;
+  padding: .5rem;
+  border-radius: 3rem;
+  background-color: #0099ff; }
+
+.container {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.item__box-1 {
+  height: 17rem;
+  width: 21rem; }
+
+.item__box-2 {
+  height: 17rem;
+  width: 21rem; }
+
+.item__box-3 {
+  height: 17rem;
+  width: 21rem; }
+
+.item__box-4 {
+  height: 17rem;
+  width: 21rem; }
+
+.section-about {
+  margin: -94px;
+  padding: 0;
+  text-align: center; }
+
+.categories {
+  color: orangered;
+  text-align: center;
+  font-size: 2.5rem; }
+
+.flex .btn-cart {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: 30rem;
+  background-color: darkcyan; }
+
+.flex__a {
+  display: flex;
+  margin: 0 auto;
+  padding: 2.5rem; }
+  .flex__a--bed-1 {
+    margin: 0;
+    height: 15rem;
+    width: 17rem;
+    background-size: cover;
+    box-shadow: 0 .4rem 1rem; }
+  .flex__a--text {
+    font-family: 'Spicy Rice', cursive;
+    text-align: center; }
+  .flex__a .flex-a--text__paragraph {
+    margin-left: 1.6rem; }
+
+.flex__b {
+  display: flex;
+  margin: 0 auto;
+  padding: 2.5rem; }
+  .flex__b--bed-2 {
+    margin: 0;
+    height: 15rem;
+    width: 17rem;
+    background-size: cover;
+    box-shadow: 0 .4rem 1rem; }
+  .flex__b .flex-b--text__paragraph {
+    margin-left: 1.6rem; }
+
+.flex__c {
+  display: flex;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: 5px; }
+  .flex__c--bed-3 {
+    margin: 0;
+    height: 15rem;
+    width: 17rem;
+    background-size: cover;
+    box-shadow: 0 .4rem 1rem; }
+  .flex__c .flex-c--text__paragraph {
+    margin-left: 1.6rem; }
+
+.location {
+  margin-top: 1.5rem;
+  background-color: #F9F8F2; }
+  .location__heading {
+    color: black;
+    text-align: center; }
+  .location__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+
+.offer-list {
+  margin-top: 2rem; }
+
+.offers {
+  grid-column: center-start / center-end;
+  margin: 1rem 0;
+  background-color: #d6d6d6;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  grid-gap: 7em; }
+
+.furniture {
+  background-color: beige;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 2.5rem; }
+  .furniture__img {
+    width: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1/2; }
+  .furniture__name {
+    grid-row: 1/2;
+    grid-column: 1 / -1;
+    align-self: end;
+    justify-self: center;
+    z-index: 3;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: .4rem;
+    width: 78%;
+    background-color: dodgerblue;
+    color: #fff;
+    font-weight: 400;
+    transform: translateY(50%); }
+  .furniture__price {
+    font-family: monospace;
+    color: orangered;
+    text-align: center;
+    padding-left: 5rem; }
+  .furniture__btn {
+    grid-column: 1 / -1; }
+
+.tags {
+  text-align: center;
+  background-color: #bbd4e4;
+  padding: 3rem;
+  margin-top: -2rem; }
+  .tags__list {
+    text-decoration: none;
+    color: darkblue;
+    margin-right: 6rem; }
